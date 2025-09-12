@@ -1,1 +1,4 @@
-<h1>Esto viene de otro archivo php</h1>
+<header>
+    <h2>Adrián Morales</h2>
+    <h4>2º DAW</h4>
+</header>
