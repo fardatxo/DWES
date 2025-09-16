@@ -15,6 +15,8 @@
         <li>MySQL</li>
     </ul>
 <nav>
-    <H3>Volver a <A href="principal.php">página principal</H3>
+    <h3>Volver a <A href="principal.php">página principal</h3>
 </nav>
 </body>
+<?php include 'footer.inc.php'; ?>
+</html>

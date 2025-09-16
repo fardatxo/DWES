@@ -14,3 +14,5 @@
     <H5>Volver a <A href="principal.php">página principal</H5>
 </nav>
 </body>
+<?php include 'footer.inc.php'; ?>
+</html>

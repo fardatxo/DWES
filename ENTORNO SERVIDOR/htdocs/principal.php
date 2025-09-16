@@ -39,7 +39,9 @@
       <button type="submit">Enviar</button>
       <button type="reset">Limpiar</button>
     </form>
+
   </section>
 
 </body>
+<?php include 'footer.inc.php'; ?>
 </html>
