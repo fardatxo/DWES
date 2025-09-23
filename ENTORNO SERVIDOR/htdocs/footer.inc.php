@@ -46,6 +46,6 @@ $mes = ['January' => 'enero','February' => 'febrero','March' => 'marzo','April' 
 <footer>
     
     <p>
-        <?php echo ''.$dia[date('l')].','.date('d').'  de '.$mes[date('F')].' de '.date('Y'); ?>
+        <?php echo ''.$dia[date('l')].', '.date('d').'  de '.$mes[date('F')].' de '.date('Y'); ?>
     </p>
 </footer>

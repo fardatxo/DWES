@@ -26,19 +26,28 @@
 
   <section>
     <h3>Formulario de Contacto</h3>
-    <form action="mailto:adrmorgon@alu.edu.gva.es" method="post" enctype="text/plain">
-      <label for="nombre">Nombre:</label><br>
-      <input type="text" id="nombre" name="nombre" required><br><br>
+    <form action="consulta.php" method="get">
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre" required><br><br>
 
-      <label for="email">Correo electrónico:</label><br>
-      <input type="email" id="email" name="email" required><br><br>
+  <label for="nombre">Apellidos:</label><br>
+  <input type="text" id="apellidos" name="apellidos" required><br><br>
 
-      <label for="mensaje">Mensaje:</label><br>
-      <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+  <label for="nombre">Ciclo:</label><br>
+  <input type="text" id="ciclo" name="ciclo" required><br><br>
 
-      <button type="submit">Enviar</button>
-      <button type="reset">Limpiar</button>
-    </form>
+  <label for="email">Correo electrónico:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="mensaje">Mensaje:</label><br>
+  <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+  
+  <label for="checkbox" type="date">Dia:</label><br>
+  <input type="date" name="consulta" value="ADA">DIA<br><br>
+  
+  <button type="submit">Enviar</button>
+  <button type="reset">Limpiar</button>
+</form>
 
   </section>
 
